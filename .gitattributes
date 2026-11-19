@@ -1,0 +1,4 @@
+# Forzar LF: los scripts se ejecutan en Linux (CloudShell/Lambda/Glue)
+* text=auto eol=lf
+*.zip binary
+*.png binary
