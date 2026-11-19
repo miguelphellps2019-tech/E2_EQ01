@@ -1,0 +1,1 @@
+# Intencionalmente vacío: Lambda incluye boto3 y se usa urllib de la biblioteca estándar.

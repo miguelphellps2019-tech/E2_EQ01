@@ -1,0 +1,19 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+# terraform.tfvars se versiona: no contiene secretos (la API key va por TF_VAR_api_key)
+infrastructure/terraform/build/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets and local environment
+.env
+*.pem
+*.key
+
